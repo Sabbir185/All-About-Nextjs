@@ -7,6 +7,8 @@ const SelectedClientProjectPage = () => {
 	//   http://localhost:3000/clients/sabbir/project123
 	// {id: 'sabbir', clientprojectid: 'project123'}
 
+	// router.query, you may think it with useParam but advance system, I think
+
 	return (
 		<div>
 			<h1>
