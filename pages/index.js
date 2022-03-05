@@ -1,7 +1,11 @@
+import ErrorAlert from "../components/ui/error-alert";
+
 function HomePage() {
 	return (
 		<div>
-			<h1>Home Page!</h1>
+			<ErrorAlert>
+				<h1>Welcome To Home Page!</h1>
+			</ErrorAlert>
 		</div>
 	);
 }
