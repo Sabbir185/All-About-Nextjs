@@ -1,4 +1,5 @@
 // import { getFeaturedEvents } from "../../data/dummy-data";
+import Head from 'next/head'
 import { getAllEvents } from "../../data/dummy-data";
 import EventList from "../../components/events/event-list";
 import EventSearch from "../../components/events/event-search";
@@ -16,6 +17,10 @@ export default function AllEventsPage() {
 	
 	return (
 		<div>
+			<Head>
+				<title>Nextjs Learning Project</title>
+				<meta name='Sabbir185' content='Md. Sabbir Ahmmed'/>
+			</Head>
 			<EventSearch onSearch={findEventHandler}/>
 			<EventList items={events} />
 		</div>
