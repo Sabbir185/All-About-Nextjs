@@ -1,2 +1,2 @@
 # `Framework Of Reactjs`
-> File base routing project
+> getStaticProps, getStaticPaths, getServerSideProps, data-fetching with SWR
